@@ -1,6 +1,6 @@
 {
   "name": "blur-admin",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "homepage": "https://github.com/1itvinka/blur-admin",
   "authors": [
     "akveo"
@@ -43,17 +43,20 @@
     "moment": "~2.10.6",
     "slimScroll": "jquery-slimscroll#~1.3.6",
     "angular-progress-button-styles": "~0.1.0",
-    "angular-ui-router": "~0.2.15",
+    "angular-ui-router": "~0.2.16",
     "angular-chart.js": "~0.8.8",
     "angular-chartist.js": "~3.3.12",
     "chartist": "0.9.5",
     "angular-morris-chart": "~1.1.0",
     "ionrangeslider": "~2.1.2",
-    "angular-bootstrap": "~0.14.3",
+    "angular-bootstrap": "~1.3.3",
     "angular-animate": "~1.4.8",
     "textAngular": "~1.4.6",
     "angular-xeditable": "~0.1.9",
     "ng-js-tree": "~0.0.7"
+  },
+  "resolutions": {
+    "angular": "~1.4.8"
   },
   "overrides": {
     "amcharts": {
@@ -78,7 +81,8 @@
     "bootstrap": {
       "main": [
         "dist/css/bootstrap.css",
-        "js/dropdown.js"
+        "js/dropdown.js",
+        "./dist/fonts/**.*"
       ]
     },
     "slimScroll": {
